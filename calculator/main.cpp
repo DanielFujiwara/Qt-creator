@@ -47,7 +47,7 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-
+//511
 #include <QApplication>
 
 #include "calculator.h"

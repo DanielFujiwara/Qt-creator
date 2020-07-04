@@ -139,11 +139,26 @@ void MainWindow::on_infobtn_clicked()
 
 void MainWindow::on_cosebtn_clicked()
 {
+
+    if(this->filename == "")
+    {
+        QMessageBox::information(NULL, "Title", "当前没有被打开的文件");
+        return;
+
+    }
+
+
+
+
+
     QString text = ui->textEdit->toPlainText();
     if(textchange == 0 || text.isEmpty())
     {
         ui->textEdit->setText("");
         this->filename = "";
+        ui->fileLabel->setText("null");
+        QString styleb = QString("background-color: rgb(0, 255, 0);");
+        ui->stabtn->setStyleSheet(styleb);
         textchange = 0;
     }
     else {

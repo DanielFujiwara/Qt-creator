@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-07-04T10:13:39
+# Project created by QtCreator 2020-07-06T19:16:14
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = text_editer
+TARGET = homework_ListWidgets
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,19 +25,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        fileinfo.cpp \
+        dir_list.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        simple_file.cpp
 
 HEADERS += \
-        fileinfo.h \
-        mainwindow.h
+        dir_list.h \
+        mainwindow.h \
+        simple_file.h
 
 FORMS += \
-        fileinfo.ui \
-        mainwindow.ui
+        dir_list.ui \
+        mainwindow.ui \
+        simple_file.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    icon.qrc

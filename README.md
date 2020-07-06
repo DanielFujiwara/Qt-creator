@@ -1,2 +1,0 @@
-# Qt-creator
-Qt exercises

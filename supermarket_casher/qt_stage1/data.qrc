@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data.qrc</file>
+        <file>userdata</file>
+    </qresource>
+</RCC>

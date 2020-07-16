@@ -1,0 +1,128 @@
+{
+    "data": "20200711",
+    "shoplist": [
+        {
+            "cost": "1.00",
+            "name": "肥皂",
+            "price": "2.50",
+            "stock": "92",
+            "type": "日用品"
+        },
+        {
+            "cost": "19",
+            "name": "洗发水",
+            "price": "25.5",
+            "stock": "100",
+            "type": "日用品"
+        },
+        {
+            "cost": "3.00",
+            "name": "方便面",
+            "price": "4.50",
+            "stock": "95",
+            "type": "食品"
+        },
+        {
+            "cost": "4.00",
+            "name": "薯片",
+            "price": "7.50",
+            "stock": "61",
+            "type": "食品"
+        },
+        {
+            "cost": "6.00",
+            "name": "巧乐兹",
+            "price": "10.00",
+            "stock": "83",
+            "type": "食品"
+        },
+        {
+            "cost": "12.00",
+            "name": "咖啡",
+            "price": "15.00",
+            "stock": "84",
+            "type": "食品"
+        },
+        {
+            "cost": "12.00",
+            "name": "巧克力",
+            "price": "21.00",
+            "stock": "86",
+            "type": "食品"
+        },
+        {
+            "cost": "1.00",
+            "name": "可乐",
+            "price": "3.00",
+            "stock": "86",
+            "type": "食品"
+        },
+        {
+            "cost": "8.00",
+            "name": "饼干",
+            "price": "13.00",
+            "stock": "86",
+            "type": "食品"
+        },
+        {
+            "cost": "2.00",
+            "name": "QQ糖",
+            "price": "3.00",
+            "stock": "86",
+            "type": "食品"
+        },
+        {
+            "cost": "2.00",
+            "name": "可乐",
+            "price": "3.00",
+            "stock": "92",
+            "type": "饮品"
+        },
+        {
+            "cost": "3.00",
+            "name": "魔法士",
+            "price": "5.00",
+            "stock": "100",
+            "type": "食品"
+        }
+    ],
+    "userdata": [
+        {
+            "flag": "管理员",
+            "id": "0000",
+            "name": "admin",
+            "passwork": "511511"
+        },
+        {
+            "flag": "收银员",
+            "id": "0001",
+            "name": "hewei",
+            "passwork": "1313"
+        },
+        {
+            "flag": "收银员",
+            "id": "0012",
+            "name": "wyy",
+            "passwork": "1212"
+        },
+        {
+            "flag": "收银员",
+            "id": "0002",
+            "name": "alu",
+            "passwork": "1212"
+        },
+        {
+            "flag": "收银员",
+            "id": "0003",
+            "name": "aji",
+            "passwork": "1212"
+        },
+        {
+            "flag": "收银员",
+            "id": "0004",
+            "name": "liu",
+            "passwork": "1212"
+        }
+    ],
+    "verson": "1.0"
+}

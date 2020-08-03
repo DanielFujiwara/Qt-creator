@@ -13,7 +13,7 @@ weatherclock::weatherclock(QWidget *parent) :
     manager = new QNetworkAccessManager();
     connect(manager,&QNetworkAccessManager::finished,this,&weatherclock::read_data);
 //    qDebug()<<__LINE__;
-    this->getWeatherData();
+//    this->getWeatherData();
 
 
     mTimer = new QTimer(this);

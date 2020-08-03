@@ -38,6 +38,8 @@ void usermovie::exitMovie()
 //        mProcess.kill();
 //        system("quit\n");
     quitMplayer();
+
+//    mProcess.write("quit");
 //        mProcess.waitForFinished();
 //    }
 }

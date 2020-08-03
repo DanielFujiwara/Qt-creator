@@ -38,6 +38,7 @@ SOURCES += \
         newslabel.cpp \
         orderstatus.cpp \
         peoplegame.cpp \
+        photoview.cpp \
         readrfidid.cpp \
         repairectrl.cpp \
         rfidclassthread.cpp \
@@ -49,6 +50,8 @@ SOURCES += \
         usermovie.cpp \
         userppt.cpp \
         userwindow.cpp \
+        v4l2.cpp \
+        videodisplay.cpp \
         weatherclock.cpp \
         welcomeppt.cpp
 
@@ -67,6 +70,7 @@ HEADERS += \
         newslabel.h \
         orderstatus.h \
         peoplegame.h \
+        photoview.h \
         readrfidid.h \
         repairectrl.h \
         rfidclassthread.h \
@@ -74,10 +78,14 @@ HEADERS += \
         stopwatchgame.h \
         textfileinfo.h \
         textmainwindow.h \
+        ui_photoview.h \
+        ui_videodisplay.h \
         user_management.h \
         usermovie.h \
         userppt.h \
         userwindow.h \
+        v4l2.h \
+        videodisplay.h \
         weatherclock.h \
         welcomeppt.h
 
@@ -91,6 +99,7 @@ FORMS += \
         newslabel.ui \
         orderstatus.ui \
         peoplegame.ui \
+        photoview.ui \
         repairectrl.ui \
         softkey.ui \
         stopwatchgame.ui \
@@ -100,6 +109,7 @@ FORMS += \
         usermovie.ui \
         userppt.ui \
         userwindow.ui \
+        videodisplay.ui \
         weatherclock.ui \
         welcomeppt.ui
 

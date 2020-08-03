@@ -36,6 +36,8 @@ private slots:
 
     void on_gameBtn_clicked();
 
+    void on_videoBtn_clicked();
+
 private:
     Ui::userwindow *ui;
     QString myName;

@@ -2,7 +2,10 @@
 #include "ui_userwindow.h"
 #include "mainwindow.h"
 //#include "peoplegame.h"
+#include "videodisplay.h"
 #include "gamewindows.h"
+
+
 userwindow::userwindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::userwindow)
@@ -113,6 +116,19 @@ void userwindow::on_gameBtn_clicked()
     connect(game,&gamewindows::sendMyUser,game,&gamewindows::setMyUser);
     emit game->sendMyUser(myName);
     game->show();
+    movie->exitMovie();
+    disconnect(weather->mTimer,&QTimer::timeout,weather,&weatherclock::screenshow);
+//    delete weather;
+    this->close();
+    return;
+}
+
+void userwindow::on_videoBtn_clicked()
+{
+    videodisplay *camshot = new videodisplay();
+    connect(camshot,&videodisplay::sendName,camshot,&videodisplay::setMyName);
+    emit camshot->sendName(myName);
+    camshot->show();
     movie->exitMovie();
     disconnect(weather->mTimer,&QTimer::timeout,weather,&weatherclock::screenshow);
 //    delete weather;

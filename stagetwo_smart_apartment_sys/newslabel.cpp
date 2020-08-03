@@ -10,7 +10,7 @@ newslabel::newslabel(QWidget *parent) :
     manager = new QNetworkAccessManager();
 
     connect(manager,&QNetworkAccessManager::finished,this,&newslabel::read_data);
-    this->getNewsData();
+//    this->getNewsData();
 
     mTimer = new QTimer;
     mTimer->setInterval(5000);
